@@ -1,5 +1,5 @@
 # Наш базовий образ - це Linux з попередньо встановленим python-3.10
-FROM python:3.10-slim
+FROM python:3.12
 
 # Встановимо змінну середовища
 ENV APP_DIR /application
